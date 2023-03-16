@@ -1,0 +1,48 @@
+@media(max-width:1024px){
+    body{
+        font-size: 15px;
+    }
+    .description{
+        width: 300px;
+        height: 110px;
+    }
+    .description h1{
+        font-size: 20px;
+    }
+    .formulario{
+        padding: 20px;
+        width: 320px;
+        max-width: 400px;
+    }
+    .formulario .input{
+        margin-bottom: 15px;
+    }
+    .formulario input{
+        padding: 9px;
+        width: 280px;
+        height: 35px;
+    }
+    .formulario textarea{
+        padding: 9px;
+        width: 280px;
+        height: 100px;
+    }
+    .formulario .submit{
+        font-size: 15px;
+    }
+    .error{
+        font-size: 15px;
+    }
+}
+@media(max-width:768px){
+    .container{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .description{
+        margin: 0 auto;
+        margin-bottom: 40px;
+        margin-right: auto;
+    }
+}
