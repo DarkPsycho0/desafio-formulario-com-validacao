@@ -21,21 +21,24 @@
         </section>
         <section class="formulario">
             <form action="index.html" method="get">
-                <div class="">
+                <div class="input">
                     <input type="text" name="Name" placeholder="Nome Completo *">
+                    <p class="error none">campo obrigatório</p>
                 </div>
-                <div>
+                <div class="input">
                     <input type="email" name="Email" placeholder="Email *">
+                    <p class="error none">campo obrigatório</p>
                 </div>
-                <div>
-                    <input type="tel" name="phone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"
-                        placeholder="Telefone *">
+                <div class="input">
+                    <input type="tel" name="phone" placeholder="Telefone *">
+                    <p class="error none">campo obrigatório</p>
                 </div>
-                <div>
+                <div class="input">
                     <textarea name="mensage" cols="30" rows="10" placeholder="Mensagem *"></textarea>
+                    <p class="error none">campo obrigatório</p>
                 </div>
                 <p>*campos obrigatórios</p>
-                <input type="submit" value="Enviar">
+                <input class="submit" type="submit" value="Enviar">
             </form>
         </section>
     </main>
