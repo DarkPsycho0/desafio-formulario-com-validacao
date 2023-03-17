@@ -31,7 +31,7 @@ body{
     width: 510px;
     max-height: 600px;
 }
-.formulario .input{
+.formulario div{
     margin-bottom: 22px;
 }
 .formulario input{
@@ -47,6 +47,7 @@ body{
     height: 150px;
     border: 1px solid black;
     border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
 }
 .formulario .submit{
     background-color: var(--botaoSubmit);
